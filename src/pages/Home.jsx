@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '../components/hero'
+import Hero from '../components/Hero'
 import Services from './Services'
 import Projects from './Projects'
 import About from './About'
