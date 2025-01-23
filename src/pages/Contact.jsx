@@ -24,7 +24,7 @@ const Contact = () => {
 
     try {
       // Send the form data to the backend API
-      const response = await fetch("https://your-backend.onrender.com/api/contact", {
+      const response = await fetch("https://mm-const.onrender.com/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
