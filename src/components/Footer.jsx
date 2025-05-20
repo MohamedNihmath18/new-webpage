@@ -6,7 +6,8 @@ import { assets } from "../assets/assets";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left place-items-center md:place-items-start">
+
         {/* Company Info */}
         {/* Company Info */}
         <div className="space-y-6">
