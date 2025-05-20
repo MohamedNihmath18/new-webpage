@@ -66,6 +66,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+      <hr className="block md:hidden border-gray-700 my-6" />
 
 
         {/* Contact Info */}
@@ -78,6 +79,7 @@ const Footer = () => {
             <li>Puliunthope, Chennai-12, India</li>
           </ul>
         </div>
+      <hr className="block md:hidden border-gray-700 my-6" />
 
         {/* Social Media Links */}
         <div className="space-y-6">
