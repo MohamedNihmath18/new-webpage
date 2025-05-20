@@ -22,7 +22,14 @@ const Navbar = () => {
   return (
     <div className="w-full bg-gray-900 text-white flex items-center justify-between py-4 px-6 fixed top-0 left-0 z-50">
       {/* Logo */}
-      <img src={assets.mm1} className="w-24" alt="Logo" />
+      {/* <img src={assets.mm1} className="w-24" alt="Logo" /> */}
+
+      <img
+        src={assets.mm1}
+        className="h-12 object-contain"
+        alt="Logo"
+      />
+
 
       {/* Desktop Menu */}
       <ul className="hidden sm:flex gap-6 text-sm">
@@ -36,10 +43,10 @@ const Navbar = () => {
         >
           <p>HOME</p>
           {activeLink === 'home' && (
-          <hr
-            className='w-2/4 border-none h-[1.5px]'
-            style={{ backgroundColor: "#FF004F" }}
-          /> )}
+            <hr
+              className='w-2/4 border-none h-[1.5px]'
+              style={{ backgroundColor: "#FF004F" }}
+            />)}
         </ScrollLink>
         <ScrollLink
           to="services"
@@ -51,10 +58,10 @@ const Navbar = () => {
         >
           <p>SERVICES</p>
           {activeLink === 'services' && (
-          <hr
-            className="w-2/4 border-none h-[1.5px] "
-            style={{ backgroundColor: "#FF004F" }}
-          />) }
+            <hr
+              className="w-2/4 border-none h-[1.5px] "
+              style={{ backgroundColor: "#FF004F" }}
+            />)}
         </ScrollLink>
         <ScrollLink
           to="projects"
@@ -66,10 +73,10 @@ const Navbar = () => {
         >
           <p>PROJECTS</p>
           {activeLink === 'projects' && (
-          <hr
-            className="w-2/4 border-none h-[1.5px] "
-            style={{ backgroundColor: "#FF004F" }}
-          /> )}
+            <hr
+              className="w-2/4 border-none h-[1.5px] "
+              style={{ backgroundColor: "#FF004F" }}
+            />)}
         </ScrollLink>
         <ScrollLink
           to="about"
@@ -81,10 +88,10 @@ const Navbar = () => {
         >
           <p>ABOUT</p>
           {activeLink === 'about' && (
-          <hr
-            className="w-2/4 border-none h-[1.5px] "
-            style={{ backgroundColor: "#FF004F" }}
-          /> )}
+            <hr
+              className="w-2/4 border-none h-[1.5px] "
+              style={{ backgroundColor: "#FF004F" }}
+            />)}
         </ScrollLink>
         <ScrollLink
           to="contact"
@@ -96,10 +103,10 @@ const Navbar = () => {
         >
           <p>CONTACT</p>
           {activeLink === 'contact' && (
-          <hr
-            className="w-2/4 border-none h-[1.5px] "
-            style={{ backgroundColor: "#FF004F" }}
-          />)}
+            <hr
+              className="w-2/4 border-none h-[1.5px] "
+              style={{ backgroundColor: "#FF004F" }}
+            />)}
         </ScrollLink>
       </ul>
 
@@ -115,9 +122,8 @@ const Navbar = () => {
 
       {/* Sidebar Menu for Small Screens */}
       <div
-        className={`fixed top-0 right-0 bottom-0 bg-white text-gray-900 z-50 transition-all duration-300 ease-in-out ${
-          visible ? "w-3/4" : "w-0"
-        }`}
+        className={`fixed top-0 right-0 bottom-0 bg-white text-gray-900 z-50 transition-all duration-300 ease-in-out ${visible ? "w-3/4" : "w-0"
+          }`}
       >
         {/* Sidebar Header */}
         <div className="flex items-center justify-between p-4 border-b">
