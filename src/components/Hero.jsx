@@ -51,7 +51,7 @@ const Hero = () => {
         <h1 className="text-4xl sm:text-6xl font-bold leading-tight">
           Build Your Dream <span className="text-red-500">Construction</span> with Us
         </h1>
-        <p className="mt-4 text-lg sm:text-xl text-gray-300">
+        <p className="mt-4 text-lg sm:text-xl text-black-300">
           We specialize in high-quality, sustainable construction projects. Let’s bring your vision to life with precision and expertise.
         </p>
       </div>
