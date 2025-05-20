@@ -11,7 +11,7 @@ import MM from './MM.png'
 import founder from './founder.jpeg'
 import mm from './mm.jpg'
 import com_logo from './com_logo.png'
-import herosection from './herosection.png'
+import herosection1 from './herosection1.jpg'
 
 export const assets = {
     logo_mm,
@@ -27,5 +27,5 @@ export const assets = {
     founder,
     mm,
     com_logo,
-    herosection
+    herosection1
 }

@@ -8,7 +8,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center"
         style={{
-          backgroundImage: `url(${assets.herosection})`, // Ensure the path to the image is correct
+          backgroundImage: `url(${assets.herosection1})`, // Ensure the path to the image is correct
         }}
       ></div>
 
