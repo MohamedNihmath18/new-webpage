@@ -132,6 +132,7 @@ const projects = [
 ];
 
 const Projects = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
   return (
     <div className="w-full bg-gray-900 text-white py-16 px-6">
       <div className="max-w-6xl mx-auto text-center">
@@ -145,7 +146,8 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="relative overflow-hidden bg-gray-800 rounded-lg shadow-md border-2 border-gray-700 group"
+              className="relative overflow-hidden bg-gray-800 rounded-lg shadow-md border-2 border-gray-700 group cursor-pointer"
+              onClick={() => setSelectedImage(project.image)}
             >
               <img
                 src={project.image}
@@ -167,6 +169,19 @@ const Projects = () => {
           ))}
         </div>
       </div>
+      {/* Modal for full image view */}
+      {selectedImage && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50"
+          onClick={() => setSelectedImage(null)}
+        >
+          <img
+            src={selectedImage}
+            alt="Full Project"
+            className="max-w-full max-h-full rounded shadow-lg border-4 border-white"
+          />
+        </div>
+      )}
     </div>
   );
 };
