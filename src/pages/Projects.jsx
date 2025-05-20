@@ -6,62 +6,129 @@ const projects = [
     id: 1,
     title: "Luxury Residential Building",
     description: "A luxurious residential complex with state-of-the-art amenities.",
-    image: assets.luxury, // Replace with your actual image path
+    image: assets.prj1, // Replace with your actual image path
   },
   {
     id: 2,
     title: "Modern Commercial Space",
     description: "A modern commercial building designed for office spaces and retail.",
-    image: assets.modern,
+    image: assets.prj2,
   },
   {
     id: 3,
     title: "Renovation of Historic Building",
     description: "Restoration and renovation of a historical building with modern features.",
-    image: assets.historic,
+    image: assets.prj3,
   },
   {
     id: 4,
     title: "Community Park Development",
     description: "Design and construction of a community park with recreational facilities.",
-    image: assets.project4,
+    image: assets.prj4,
   },
   {
     id: 5,
     title: "Eco-Friendly Office Building",
     description: "An eco-friendly office building with sustainable design.",
-    image: assets.eco,
+    image: assets.prj5,
   },
   {
     id: 6,
     title: "Luxury Villa",
     description: "A luxury villa with modern architecture and landscaping.",
-    image: assets.villa,
+    image: assets.prj6,
   },
   {
     id: 7,
     title: "High-Rise Apartment Complex",
     description: "A high-rise apartment complex with stunning views.",
-    image: assets.highrise,
+    image: assets.prj7,
   },
   {
     id: 8,
     title: "Shopping Mall Construction",
     description: "Construction of a modern shopping mall with various retail outlets.",
-    image: assets.mall,
+    image: assets.prj8,
   },
   {
     id: 9,
     title: "Industrial Warehouse",
     description: "Construction of a large industrial warehouse for storage and logistics.",
-    image: assets.warehouse,
+    image: assets.prj9,
   },
   {
     id: 10,
     title: "School Building",
     description: "Construction of a modern school building with advanced facilities.",
-    image: assets.school,
+    image: assets.prj10,
+  },
+  {
+    id: 11,
+    title: "Hospital Construction",
+    description: "Building a state-of-the-art hospital with advanced medical facilities.",
+    image: assets.prj11,
+  },
+  {
+    id: 12,
+    title: "Bridge Construction",
+    description: "Construction of a modern bridge with innovative engineering.",
+    image: assets.prj12,
+  },
+  {
+    id: 13,
+    title: "Sports Complex",
+    description: "Construction of a sports complex with various facilities.",
+    image: assets.prj13,
+  },
+  {
+    id: 14,
+    title: "Cultural Center",
+    description: "Building a cultural center to promote arts and community events.",
+    image: assets.prj14,
+  },
+  {
+    id: 15,
+    title: "Residential Community",
+    description: "Development of a residential community with parks and amenities.",
+    image: assets.prj15,
+  },
+  {
+    id: 16,
+    title: "Office Tower",
+    description: "Construction of a modern office tower with green building features.",
+    image: assets.prj16,
+  },
+  {
+    id: 17,
+    title: "Luxury Hotel",
+    description: "Building a luxury hotel with world-class amenities.",
+    image: assets.prj17,
+  },
+  {
+    id: 18,
+    title: "Mixed-Use Development",
+    description: "A mixed-use development combining residential and commercial spaces.",
+    image: assets.prj18,
+  },
+  {
+    id: 19,
+    title: "Public Library",
+    description: "Construction of a modern public library with community spaces.",
+    image: assets.prj19,
+  },
+  {
+    id: 20,
+    title: "Green Roof Project",
+    description: "Installation of a green roof to promote sustainability.",
+    image: assets.prj20,
+  },
+  {
+    id: 21,
+    title: "Waterfront Development",
+    description: "Development of a waterfront area with recreational facilities.",
+    image: assets.prj21,
   }
+  
 ];
 
 const Projects = () => {
