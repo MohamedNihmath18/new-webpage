@@ -8,58 +8,64 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-12 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Company Info */}
+        {/* Company Info */}
         <div className="space-y-6">
-          <h3 className="text-2xl font-bold text-red-500 mb-4">
-            {/* <img className="w-24" src={assets.mm} alt="Company Logo" /> */}
-            M.M Constructions
-          </h3>
+          <div className="flex items-center gap-3 mb-4">
+            <img
+              src={assets.mm1}
+              alt="Company Logo"
+              className="h-10 object-contain"
+            />
+            <h3 className="text-2xl font-bold text-red-500">M.M Constructions</h3>
+          </div>
           <ul className="space-y-2">
-        <li>
-          <ScrollLink
-            to="about"
-            smooth={true}
-            duration={500}
-            offset={-70}
-            className="hover:text-red-500 transition cursor-pointer"
-          >
-            About Us
-          </ScrollLink>
-        </li>
-        <li>
-          <ScrollLink
-            to="services"
-            smooth={true}
-            duration={500}
-            offset={-70}
-            className="hover:text-red-500 transition cursor-pointer"
-          >
-            Services
-          </ScrollLink>
-        </li>
-        <li>
-          <ScrollLink
-            to="projects"
-            smooth={true}
-            duration={500}
-            offset={-70}
-            className="hover:text-red-500 transition cursor-pointer"
-          >
-            Projects
-          </ScrollLink>
-        </li>
-        <li>
-          <ScrollLink
-            to="contact"
-            smooth={true}
-            duration={500}
-            offset={-70}
-            className="hover:text-red-500 transition cursor-pointer"
-          >
-            Contact
-          </ScrollLink>
-        </li>
-      </ul>
+            <li>
+              <ScrollLink
+                to="about"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="hover:text-red-500 transition cursor-pointer"
+              >
+                About Us
+              </ScrollLink>
+            </li>
+            <li>
+              <ScrollLink
+                to="services"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="hover:text-red-500 transition cursor-pointer"
+              >
+                Services
+              </ScrollLink>
+            </li>
+            <li>
+              <ScrollLink
+                to="projects"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="hover:text-red-500 transition cursor-pointer"
+              >
+                Projects
+              </ScrollLink>
+            </li>
+            <li>
+              <ScrollLink
+                to="contact"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="hover:text-red-500 transition cursor-pointer"
+              >
+                Contact
+              </ScrollLink>
+            </li>
+          </ul>
         </div>
+
 
         {/* Contact Info */}
         <div className="space-y-6">
@@ -111,7 +117,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      
+
       <hr className="my-8 border-gray-700" />
 
       {/* Bottom Bar */}
