@@ -65,7 +65,7 @@ const Footer = () => {
         <div className="space-y-6">
           <h3 className="text-2xl font-bold text-red-500 mb-4">Contact Info</h3>
           <ul className="space-y-2">
-            <li>Phone: 9876543210</li>
+            <li>Phone: +919894585479</li>
             <li>Email: mmconstructionss@gmail.com</li>
             <li>Address: 3/2 Mannarsamy Koil Street,</li>
             <li>Puliunthope, Chennai-12, India</li>
