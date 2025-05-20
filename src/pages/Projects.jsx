@@ -154,8 +154,8 @@ const Projects = () => {
               />
               <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 transition-all duration-300"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6 text-center text-white z-10">
-                <h3 className="text-xl font-semibold">{project.title}</h3>
-                <p className="text-sm mt-2">{project.description}</p>
+                <h3 className="text-xl font-semibold"></h3>
+                <p className="text-sm mt-2"></p>
                 {/* <a
                   href="#"
                   className="mt-4 inline-block text-red-500 hover:text-red-600"
