@@ -36,13 +36,6 @@ import prj21 from './prj21.jpg'
 
 
 
- 
-
-
-
-
-
-
 export const assets = {
     logo_mm,
      
@@ -78,6 +71,6 @@ export const assets = {
     prj18,
     prj19,
     prj20,
-    prj21
+    prj21,
 
 }
