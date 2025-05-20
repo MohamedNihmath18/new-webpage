@@ -9,7 +9,7 @@ import modern from './modern.png'
 import historic from './historic.png'
 import MM from './MM.png'
 import founder from './founder.jpeg'
-import mm from './mm.jpg'
+import mm1 from './mm1.png'
 import com_logo from './com_logo.png'
 import herosection1 from './herosection1.jpg'
 import prj1 from './prj1.png'
@@ -69,7 +69,7 @@ export const assets = {
     historic,
     MM,
     founder,
-    mm,
+    mm1,
     com_logo,
     herosection1,
     prj1,

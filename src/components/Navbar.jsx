@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div className="w-full bg-gray-900 text-white flex items-center justify-between py-4 px-6 fixed top-0 left-0 z-50">
       {/* Logo */}
-      <img src={assets.mm} className="w-24" alt="Logo" />
+      <img src={assets.mm1} className="w-24" alt="Logo" />
 
       {/* Desktop Menu */}
       <ul className="hidden sm:flex gap-6 text-sm">
