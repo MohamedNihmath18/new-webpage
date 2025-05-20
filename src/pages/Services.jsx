@@ -21,9 +21,9 @@ const services = [
   },
   {
     id: 4,
-    title: "Project Management",
-    description: "Seamless execution of construction projects on time.",
-    icon: "📋",
+    title: "Interior Design",
+    description: "Crafting beautiful and functional interiors.",
+    icon: "🛋️",
   },
 ];
 
