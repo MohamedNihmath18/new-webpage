@@ -20,12 +20,48 @@ const projects = [
     description: "Restoration and renovation of a historical building with modern features.",
     image: assets.historic,
   },
-  // {
-  //   id: 4,
-  //   title: "Community Park Development",
-  //   description: "Design and construction of a community park with recreational facilities.",
-  //   image: assets.project4,
-  // },
+  {
+    id: 4,
+    title: "Community Park Development",
+    description: "Design and construction of a community park with recreational facilities.",
+    image: assets.project4,
+  },
+  {
+    id: 5,
+    title: "Eco-Friendly Office Building",
+    description: "An eco-friendly office building with sustainable design.",
+    image: assets.eco,
+  },
+  {
+    id: 6,
+    title: "Luxury Villa",
+    description: "A luxury villa with modern architecture and landscaping.",
+    image: assets.villa,
+  },
+  {
+    id: 7,
+    title: "High-Rise Apartment Complex",
+    description: "A high-rise apartment complex with stunning views.",
+    image: assets.highrise,
+  },
+  {
+    id: 8,
+    title: "Shopping Mall Construction",
+    description: "Construction of a modern shopping mall with various retail outlets.",
+    image: assets.mall,
+  },
+  {
+    id: 9,
+    title: "Industrial Warehouse",
+    description: "Construction of a large industrial warehouse for storage and logistics.",
+    image: assets.warehouse,
+  },
+  {
+    id: 10,
+    title: "School Building",
+    description: "Construction of a modern school building with advanced facilities.",
+    image: assets.school,
+  }
 ];
 
 const Projects = () => {
