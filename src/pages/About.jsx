@@ -13,26 +13,49 @@ const About = () => {
       </div>
 
        {/* Section 2: Completed Projects Count */}
+{/* <div className="w-full bg-gray-800 text-center py-12 mb-16">
+  <h3 className="text-3xl font-semibold text-white mb-4">Our Achievements</h3>
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"> */}
+    {/* Completed Projects Count */}
+    {/* <div className="bg-gray-900 p-8 rounded-lg shadow-xl transition-all duration-300 hover:border-2 hover:border-red-500 hover:scale-105">
+      <h4 className="text-4xl font-bold text-red-500">90+</h4>
+      <p className="text-gray-300 text-xl">Completed Projects</p>
+    </div> */}
+    {/* Years of Experience */}
+    {/* <div className="bg-gray-900 p-8 rounded-lg shadow-xl transition-all duration-300 hover:border-2 hover:border-red-500 hover:scale-105">
+      <h4 className="text-4xl font-bold text-red-500">30+</h4>
+      <p className="text-gray-300 text-xl">Years of Experience</p>
+    </div> */}
+    {/* Satisfied Clients */}
+    {/* <div className="bg-gray-900 p-8 rounded-lg shadow-xl transition-all duration-300 hover:border-2 hover:border-red-500 hover:scale-105">
+      <h4 className="text-4xl font-bold text-red-500">150+</h4>
+      <p className="text-gray-300 text-xl">Satisfied Clients</p>
+    </div>
+  </div>
+</div> */}
+
+
 <div className="w-full bg-gray-800 text-center py-12 mb-16">
   <h3 className="text-3xl font-semibold text-white mb-4">Our Achievements</h3>
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-    {/* Completed Projects Count */}
-    <div className="bg-gray-900 p-8 rounded-lg shadow-xl transition-all duration-300 hover:border-2 hover:border-red-500 hover:scale-105">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+    {/* Completed Projects */}
+    <div className="max-w-xs w-full bg-gray-900 p-6 rounded-lg shadow-xl transition-all duration-300 hover:border-2 hover:border-red-500 hover:scale-105">
       <h4 className="text-4xl font-bold text-red-500">90+</h4>
       <p className="text-gray-300 text-xl">Completed Projects</p>
     </div>
-    {/* Years of Experience */}
-    <div className="bg-gray-900 p-8 rounded-lg shadow-xl transition-all duration-300 hover:border-2 hover:border-red-500 hover:scale-105">
+    {/* Experience */}
+    <div className="max-w-xs w-full bg-gray-900 p-6 rounded-lg shadow-xl transition-all duration-300 hover:border-2 hover:border-red-500 hover:scale-105">
       <h4 className="text-4xl font-bold text-red-500">30+</h4>
       <p className="text-gray-300 text-xl">Years of Experience</p>
     </div>
     {/* Satisfied Clients */}
-    <div className="bg-gray-900 p-8 rounded-lg shadow-xl transition-all duration-300 hover:border-2 hover:border-red-500 hover:scale-105">
+    <div className="max-w-xs w-full bg-gray-900 p-6 rounded-lg shadow-xl transition-all duration-300 hover:border-2 hover:border-red-500 hover:scale-105">
       <h4 className="text-4xl font-bold text-red-500">150+</h4>
       <p className="text-gray-300 text-xl">Satisfied Clients</p>
     </div>
   </div>
 </div>
+
 
 
       {/* Section 3: Mission & Vision */}
