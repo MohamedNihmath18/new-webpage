@@ -33,6 +33,27 @@ import prj18 from './prj18.jpg'
 import prj19 from './prj19.jpg'
 import prj20 from './prj20.jpg'
 import prj21 from './prj21.jpg'
+import Int1 from './Int1.jpg'
+import Int2 from './Int2.jpg'
+import Int3 from './Int3.jpg'
+import Int4 from './Int4.jpg'
+import Int5 from './Int5.jpg'
+import Int6 from './Int6.jpg'
+import Int7 from './Int7.jpg'
+import Int8 from './Int8.jpg'
+import Int9 from './Int9.jpg'
+import Int10 from './Int10.jpg'
+import Int11 from './Int11.jpg'
+import Int12 from './Int12.jpg'
+import Int13 from './Int13.jpg'
+import Int14 from './Int14.jpg'
+import Int15 from './Int15.jpg'
+import Int16 from './Int16.jpg'
+import Int17 from './Int17.jpg'
+import Int18 from './Int18.jpg'
+
+
+
 
 
 
@@ -72,5 +93,22 @@ export const assets = {
     prj19,
     prj20,
     prj21,
-
+    Int1,
+    Int2,
+    Int3,
+    Int4,
+    Int5,
+    Int6,
+    Int7,
+    Int8,
+    Int9,
+    Int10,
+    Int11,
+    Int12,
+    Int13,
+    Int14,
+    Int15,
+    Int16,
+    Int17,
+    Int18,
 }
