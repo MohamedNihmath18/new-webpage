@@ -24,11 +24,30 @@ const Navbar = () => {
       {/* Logo */}
       {/* <img src={assets.mm1} className="w-24" alt="Logo" /> */}
 
-      <img
+      {/* <img
         src={assets.mm1}
         className="h-12 object-contain"
         alt="Logo"
-      />
+      /> */}
+
+      <ScrollLink
+  to="home"
+  smooth={true}
+  duration={500}
+  offset={-70}
+  className="flex items-center gap-3 cursor-pointer"
+  onClick={() => setActiveLink('home')}
+>
+  <img
+    src={assets.mm1}
+    className="h-10 object-contain"
+    alt="Logo"
+  />
+  <span className="text-xl font-semibold text-white tracking-wide">
+    M.M Constructions
+  </span>
+</ScrollLink>
+
 
 
       {/* Desktop Menu */}
