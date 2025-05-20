@@ -1,4 +1,4 @@
-import React from "react";
+import React,  { useState } from "react";
 import { assets } from "../assets/assets"; // You can replace this with your actual project images or import assets
 
 const projects = [
