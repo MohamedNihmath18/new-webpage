@@ -46,6 +46,13 @@ const Hero = () => {
       {/* Overlay to increase contrast */}
       <div className="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
 
+       {/* Floating Price Tag (Note Style) */}
+      <div className="absolute top-6 right-6 z-30">
+        <div className="bg-white text-black px-4 py-2 rounded-md shadow-lg border-2 border-red-500 rotate-2">
+          <p className="font-bold text-lg">₹ 2000 / sft</p>
+        </div>
+      </div>
+
       {/* Hero Content */}
       <div className="z-20 text-center max-w-3xl px-6">
         <h1 className="text-4xl sm:text-6xl font-bold leading-tight">
